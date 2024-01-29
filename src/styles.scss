@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+button {
+  border: 1px solid;
+  background-color: #449651;
+  opacity: 0.7;
+  color: #ffffff;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+button:hover {
+  border: 1px solid;
+  opacity: 1;
+  padding: 5px 10px;
+}
+
+button:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}

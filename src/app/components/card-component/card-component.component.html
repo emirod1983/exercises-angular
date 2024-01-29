@@ -1,0 +1,7 @@
+<div class="card-container">
+  <div class="counter">{{ counter }}</div>
+  <div class="buttons-container">
+    <button class="button" [disabled]="addDisabled" (click)="increment()">+</button>
+    <button class="button" [disabled]="substractDisabled" (click)="decrement()">-</button>
+  </div>
+</div>
